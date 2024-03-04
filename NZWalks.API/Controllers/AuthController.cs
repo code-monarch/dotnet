@@ -6,6 +6,7 @@ using NZWalks.API.Repositories;
 
 namespace NZWalks.API.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
