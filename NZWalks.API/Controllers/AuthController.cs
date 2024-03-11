@@ -49,8 +49,7 @@ namespace NZWalks.API.Controllers
 
             return BadRequest("Something went wrong");
         }
-
-
+        
         // POST: /api/Auth/Login
         [HttpPost]
         [Route("Login")]
