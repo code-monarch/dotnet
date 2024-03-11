@@ -13,6 +13,7 @@ namespace NZWalks.API.Controllers
     [ApiController]
     public class WalksController : ControllerBase
     {
+        
         private readonly IMapper mapper;
         private readonly IWalkRepository walkRepository;
 

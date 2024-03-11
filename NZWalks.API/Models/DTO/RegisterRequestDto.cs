@@ -7,6 +7,7 @@ namespace NZWalks.API.Models.DTO
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Username { get; set; }
+        
 
         [Required]
         [DataType(DataType.Password)]

@@ -10,6 +10,7 @@ namespace NZWalks.API.Controllers
     [ApiController]
     public class ImagesController : ControllerBase
     {
+        
         private readonly IImageRepository imageRepository;
 
         public ImagesController(IImageRepository imageRepository)
